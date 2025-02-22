@@ -1,10 +1,9 @@
 # Syslog
 
-Bu proje, C dilinde yazılmış basit bir syslog tarzı log üretici uygulamasıdır. Program, hayali log mesajlarını oluşturur ve bağlı liste (linked list) veri yapısını kullanarak bu logları saklar. Ayrıca, güncel tarih ve saat bilgilerini loglara ekler.
+Bu proje, C dilinde yazılmış basit bir syslog tarzı log üretici uygulamasıdır. Program, log mesajlarını oluşturur ve bağlı liste (linked list) veri yapısını kullanarak bu logları saklar. Ayrıca, güncel tarih ve saat bilgilerini loglara ekler.
 
 ## Özellikler
 
-- Hayali log mesajları üretir.
 - Güncel tarih ve saat bilgisi ile logları saklar.
 - Bağlı liste veri yapısını kullanarak logları yönetir.
 - Log mesajlarını ekrana yazdırır.
@@ -19,15 +18,15 @@ Bu proje, C dilinde yazılmış basit bir syslog tarzı log üretici uygulaması
 
 Aşağıdaki adımları takip ederek programı derleyip çalıştırabilirsiniz:
 
-1. Kaynak kodu `syslog_tarzı_log_uretici.c` dosyasına yapıştırın.
+1. Kaynak kodu `syslog.c` dosyasına yapıştırın.
 2. Terminal veya komut istemcisi açın.
 3. Aşağıdaki komutu kullanarak programı derleyin:
     ```sh
-    gcc -std=c11 syslog_tarzı_log_uretici.c -o syslog_tarzı_log_uretici
+    gcc -std=c11 syslog.c -o syslog
     ```
 4. Programı çalıştırmak için:
     ```sh
-    ./syslog_tarzı_log_uretici
+    ./syslog
     ```
 
 ## Kod
