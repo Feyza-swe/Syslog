@@ -1,6 +1,6 @@
 # Syslog
 
-Bu proje, C dilinde yazılmış basit bir syslog tarzı log üretici uygulamasıdır. Program, log mesajlarını oluşturur ve bağlı liste (linked list) veri yapısını kullanarak bu logları saklar. Ayrıca, güncel tarih ve saat bilgilerini loglara ekler.
+Bu proje, C dilinde yazılmış basit bir syslog log üretici uygulamasıdır. Program, log mesajlarını oluşturur ve bağlı liste (linked list) veri yapısını kullanarak bu logları saklar. Ayrıca, güncel tarih ve saat bilgilerini loglara ekler.
 
 ## Özellikler
 
